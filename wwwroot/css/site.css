@@ -1,0 +1,443 @@
+﻿*{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* background-image: url("honeycomb.jpg");
+  background-repeat: no-repeat; */
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  
+}
+
+.navbar {
+  width: 35%;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  z-index: 10000;
+  position: fixed;
+  top: 3px;
+  left: 21%;
+  border-bottom: 1px solid gold;
+}
+
+.navbar p {
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+  margin-left: -75px;
+  margin-top: 0px;
+}
+
+.navbar p:hover {
+  cursor: pointer;
+  background-color: rgba(218, 165, 32, 0.459);
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-top: 1px solid goldenrod;
+  transition: 0.20s ease-in-out;
+  color: floralwhite;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  /* background-color: forestgreen; */
+  /* background-color: darkseagreen; */
+  background-color: mediumseagreen;
+  /* opacity: 0.8; */
+  box-shadow: 0px 0px 2px 2px inset rgba(218, 165, 32, 0.397);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: gold;
+  /* display: flex; */
+  /* margin: 0 auto; */
+}
+
+.box {
+  margin: 0 auto;
+  margin-left: 260px;
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  transform: translateY(15%);
+}
+
+.header h1 {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: "Brush Script M7";
+  color: floralwhite;
+  /* margin-top: -10px; */
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  transform: rotate(30deg);
+  /* margin-left: -350px; */
+  margin-top: 70px;
+}
+
+.mainContent {
+  width: 100%;
+  background-color: floralwhite;
+  top: 350px;
+  left: 0px;
+  position: absolute;
+  border-top: 2px solid gold;
+  /* box-shadow: 0px 0px 5px 5px inset goldenrod; */
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  height: 750px;
+  /* background-color: forestgreen; */
+  /* border-top: 2px solid forestgreen; */
+  opacity: 90%;
+  margin-top: 50px;
+  box-shadow: -5px 10px 50px 50px rgba(255, 217, 0, 0.250);
+  /* border: 2px solid gold; */
+}
+
+.quotes, .quotes2 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes p, .quotes2 p{
+  margin-top: 70px;
+  /* color: black; */
+  color: darkgreen;
+  font-size: xx-large;
+  font-family: "Brush Script M7";
+  font-style: italic;
+}
+
+.waxing {
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  /* background-color: forestgreen; */
+  opacity: 90%;
+  margin-top: 50px;
+  box-shadow: -5px 10px 100px 100px rgba(255, 217, 0, 0.250);
+  /* border: 2px solid gold; */
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .services {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 200px;
+  left: 120px;
+  position: absolute;
+}
+
+.services p {
+  width: 75px;
+} */
+
+.hair {
+  top: 67px;
+  left: 531px;
+  position: absolute;
+}
+
+.skin {
+  top: 107px;
+  left: 600px;
+  position: absolute;
+}
+
+.wax {
+  top: 146px;
+  left: 532px;
+  position: absolute;
+}
+
+.subtitle {
+  top: 160px;
+  left: 110px;
+  position: absolute;
+  color: floralwhite;
+}
+
+.subtitle h3 {
+  font-weight: 100;
+}
+
+.content h1, .waxing h1, .booking h1 {
+  font-weight: 100;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.content hr, .waxing hr, .booking hr {
+  width: 60%;
+  margin-left: 10px;
+  margin-top: -10px;
+  border-color: gold;
+}
+
+.content img {
+  width: 300px;
+}
+
+.mySlides img {
+  border-radius: 10px;
+}
+
+/* .w3-content {
+  display: flex;
+  align-content: center;
+} */
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  /* box-shadow: 0 0 50px 50px inset black; */
+  /* background-color: rgba(0, 0, 0, 0.750); */
+  /* padding: 10px 5px 0px 5px; */
+}
+
+.mySlides {
+  /* box-shadow: 0px 0px 150px 50px rgba(0, 0, 0, 0.250) inset; */
+  display: none;
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  border-radius: 10px;
+  /* animation: fadeOut 2s; */
+  opacity: 1;
+  /* animation: fade 9s ease-in-out; */
+  animation: slide 5s ease-in-out;
+
+  /* background-color: rgba(0, 0, 0, 0.750); */
+  /* margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+
+}
+
+@keyframes fade {
+  0%,100% {opacity: 0.4;}
+  50% { opacity: 1;}
+}
+
+@keyframes slide {
+  0% {top: 100%}
+  4% {top: 0%}
+  100% {top: -400px}
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  padding: 15px;
+  margin-top: -50px;
+  color: black;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-size: 20px;
+}
+
+.next {
+  right: 325px;
+  border-radius: 3px 0 0 3px;
+  border-right: 1px solid black;
+}
+
+.prev {
+  left: 320px;
+  border-left: 1px solid black;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  transition: 0.25s ease-in-out;
+}
+
+.numbertext {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  color: black;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.caption-container {
+  text-align: center;
+  color: white;
+  padding: 2px 16px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+
+.honeycomb img:first-child {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  margin-right: -100px;
+  margin-top: -20px;
+  /* transform: rotate(-30deg); */
+}
+
+.owner {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilepic, .profilepic2 {
+  padding: 20px;
+}
+
+.profilepic img, .profilepic2 img {
+  border: 1px outset black;
+  width: 200px;
+  /* transition: margin-left 3s ease-out; */
+}
+
+.ownerinfo, .ingridinfo {
+  margin-top: -30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ownerinfo hr, .ingridinfo hr {
+  border-color: gold;
+  width: 80%;
+  margin-top: -10px;
+}
+
+.ownerinfo h1, .ingridinfo h1 {
+  font-weight: 400;
+}
+
+/* .profilepic img:hover {
+  margin-left: -300px;
+} */
+
+.hairinfo, .waxinfo, .bookinfo {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.appt {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.200);
+}
+
+.appt:hover {
+  background-color: rgba(218, 165, 32, 0.900);
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.booking {
+  margin: 0 auto;
+  width: 100%;
+  height: 800px;
+  opacity: 90%;
+  margin-top: 50px;
+  box-shadow: -5px 10px 100px 100px rgba(255, 217, 0, 0.250);
+  /* border: 2px solid gold; */
+}
+
+.calendar {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.social {
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.footerinfo {
+  width: 30%;
+  height: 90%;
+  /* border: 1px solid black; */
+  text-align: right;
+  margin-right: 20px;
+}
+
+.footerinfo p {
+  margin-bottom: -15px;
+}
+
+.footerinfo h2 {
+  font-weight: 300;
+}
+
+/* .profilepic2 img:first-child {
+  width: 300px;
+} */

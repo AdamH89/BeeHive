@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The BeeHive</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <script>
+            function scrollWin() {
+                window.scrollTo(0, 755);
+                document.body.style.backgroundColor = "gold";
+            }
+
+            function scrollHome() {
+                window.scrollTo(0,0);
+            }
+
+            function scrollTwo() {
+                window.scrollTo(0, 2605);
+            }
+
+            function scrollThree() {
+                window.scrollTo(0, 1755);
+            }
+        </script>
+
+        <div class="navbar">
+                <p onclick="scrollHome()">HOME</p>
+                <p onclick="scrollWin()">HAIR</p>
+                <p onclick="scrollThree()">WAXING</p>
+                <p onclick="scrollTwo()">BOOKING</p>
+        </div>
+        
+        <div class="header">
+            <div class="box">
+                <h1>Bee Hive</h1>
+                <img src="~/css/beehive2.png" alt="">
+                <div class="subtitle">
+                    <h3>SPA AND SALON</h3>
+                </div>
+
+                <!-- <div class="services">
+                    <div class="hair">
+                        <p>HAIR</p>
+                    </div>
+                    <div class="skin">
+                        <p>SKIN</p>
+                    </div>
+                    <div class="wax">
+                        <p>WAX</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="mainContent">
+
+            <div class="owner">
+                <div class="profilepic">
+                    <img src="~/css/barbering_files/profile.jpg" alt="">
+                </div>
+                <div class="ownerinfo">
+                    <h1>Catherine Palmer</h1>
+                    <hr>
+                    <p>FOUNDER / STYLIST</p>
+                    <a href="https://www.instagram.com/catherinescosmo/" target="_blank">
+                        <img src="~/css/insta.png" width="30px" alt="">
+                    </a>
+                </div>
+
+                <div class="profilepic2">
+                    <img src="~/css/Ingrid/ingridprofilepic.jpg" width="400px" alt="">
+                </div>
+                <div class="ingridinfo">
+                    <h1>Ingrid Sandoval</h1>
+                    <hr>
+                    <p>FOUNDER / ESTHETICIAN</p>
+                    <a href="https://www.instagram.com/janetthe76/" target="_blank">
+                        <img src="~/css/insta.png" width="30px" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1>HAIR</h1>
+                <hr>
+                <div class="hairinfo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, delectus? Cum sequi corporis nisi eum assumenda officiis dolor rem nostrum, aliquam possimus voluptatum voluptatibus tempora consequatur necessitatibus numquam incidunt neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloribus consequuntur suscipit aliquam alias quaerat vitae ex quae, officiis, dolore, beatae pariatur molestiae necessitatibus cum quis quas iste atque et!</p>
+                </div>
+                <div class="container">
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">1 / 6 </div> -->
+                            <img src="~/css/barbering_files/hair2.jpg" style="width: 400px;" alt="">
+                    </div>
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">2 / 6 </div> -->
+                            <img src="~/css/barbering_files/barbering2.jpg" style="width: 400px;" alt="">
+                        
+                    </div>
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">3 / 6</div> -->
+                            <img src="~/css/barbering_files/hair.jpg" style="width: 400px;" alt="">
+                        
+                    </div>
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">4 / 6</div> -->
+                            <img src="~/css/barbering_files/barbering.jpg" style="width: 400px;" alt="">
+                        
+                    </div>
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">5 / 6</div> -->
+                            <img src="~/css/barbering_files/hair3.jpg" style="width: 400px;" alt="">
+                        
+                    </div>
+                    <div class="mySlides w3-animate-fading">
+                        <!-- <div class="numbertext">6 / 6</div> -->
+                            <img src="~/css/barbering_files/hair4.jpg" style="width: 400px;" alt="">
+                    </div>
+
+                    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+                    <!-- <div class="caption-container">
+                        <p id="caption"></p>
+                    </div> -->
+
+                    <!-- <div class="row">
+                        <div class="column">
+                            <img src="~/css/barbering_files/hair2.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img src="~/css/barbering_files/barbering2.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img src="~/css/barbering_files/hair.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img src="~/css/barbering_files/barbering.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(4)">
+                        </div>
+                        <div class="column">
+                            <img src="~/css/barbering_files/hair3.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(5)">
+                        </div>
+                        <div class="column">
+                            <img src="~/css/barbering_files/hair4.jpg" style="width: 100%;" alt="" class="demo_cursor" onclick="currentSlide(6)">
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("demo");
+                        var captionText = document.getElementById("caption");
+                        if (n > slides.length) {
+                            slideIndex = 1;
+                        }
+                        if(n < 1) {
+                            slideIndex = slides.length
+                        }
+                        for(i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                            
+                        }
+                        for(i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace("active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += "active";
+                        captionText.innerHTML = dots[slideIndex-1].alt;
+                    }
+                </script> -->
+
+                <div class="appt" onclick="scrollTwo()">
+                    <p >BOOK AN APPOINTMENT</p>
+                </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for(i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                            // x[i].style.transition = "ease-in-out";
+                        }
+                        myIndex++;
+                        if(myIndex > x.length) {myIndex = 1}
+                        x[myIndex-1].style.display = "block";
+                        setTimeout(carousel, 5000);
+                    }
+                </script>
+            </div>
+
+            <div class="quotes">
+                    <p>"Some inspirational quotes here" - Satisfied Client</p>
+            </div>
+
+            <div class="hairContent">
+
+            </div>
+
+            <div class="waxing">
+                <h1>WAXING</h1>
+                <hr>
+                <div class="waxinfo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, delectus? Cum sequi corporis nisi eum assumenda officiis dolor rem nostrum, aliquam possimus voluptatum voluptatibus tempora consequatur necessitatibus numquam incidunt neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloribus consequuntur suscipit aliquam alias quaerat vitae ex quae, officiis, dolore, beatae pariatur molestiae necessitatibus cum quis quas iste atque et!</p>
+                </div>
+            </div>
+            <div class="quotes2">
+                <p>"Some inspirational quotes here" - Satisfied Client</p>
+            </div>
+
+            <div class="booking">
+                <h1>BOOKING</h1>
+                <hr>
+                <div class="bookinfo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, delectus? Cum sequi corporis nisi eum assumenda officiis dolor rem nostrum, aliquam possimus voluptatum voluptatibus tempora consequatur necessitatibus numquam incidunt neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloribus consequuntur suscipit aliquam alias quaerat vitae ex quae, officiis, dolore, beatae pariatur molestiae necessitatibus cum quis quas iste atque et!</p>
+                </div>
+                <div class="calendar">
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="social">
+                    <img src="~/css/insta.png" alt="" width="30px">
+                    <img src="~/css/face.png" alt="" width="30px">
+                </div>
+                <div class="footerinfo">
+                    <h2>Bee Hive</h2>
+                    <p>Catherine Palmer</p>
+                    <p>123 Road Way</p>
+                    <p>Tracy,CA 95376</p>
+                    <p>(209) 123-4567</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script type="text/javascript" src="~/js/site.js"></script>
+</body>
+</html>
